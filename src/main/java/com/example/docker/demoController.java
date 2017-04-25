@@ -16,6 +16,6 @@ public class demoController {
 
     @RequestMapping("/name")
     public String name(){
-        return "Hello name_dierci"+System.currentTimeMillis()/1000;
+        return "Hello name_dierci-dev"+System.currentTimeMillis()/1000;
     }
 }
