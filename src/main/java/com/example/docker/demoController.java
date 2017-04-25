@@ -13,4 +13,9 @@ public class demoController {
    public String home(){
         return "Hello Docker World_"+System.currentTimeMillis()/1000;
     }
+
+    @RequestMapping("/name")
+    public String name(){
+        return "Hello name_"+System.currentTimeMillis()/1000;
+    }
 }
